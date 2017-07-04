@@ -1,6 +1,8 @@
+var newMealArray = [];
+
 // returns single meal object with an id
 exports.getMeal = () => {
-  console.log("get the Meal");
+  console.log("get all Meals");
 }
 
 
@@ -8,7 +10,6 @@ exports.getMeal = () => {
 exports.getMeals = () => {
   console.log("get all Meals");
 }
-
 
 
 // adds new meal object to array then returns new meal
@@ -19,7 +20,7 @@ exports.createMeal = () => {
 
 // modifys existing meal by meal id and returns updated meal
 exports.updateMeal = () => {
-  console.log("update a meal Meal");
+console.log("update a  Meal");
 }
 
 // removes single meal based upon id and returns true or false based upon id argument

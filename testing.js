@@ -1,7 +1,7 @@
 const meals = require('./meals.js');
 
 var arrayMeal = [
-  {mealID: 1, title: "Pizza", ingredients: "dough, sauce, cheese", qty: 3},
+  {mealID: 1, title: "Pizza", ingredients: "dough, sauce, cheese"},
   {mealID: 2, title: "Calzone", ingredients: "dough, sauce, cheese"},
   {mealID: 3, title: "Stromboli", ingredients: "dough, sauce, cheese"},
   {mealID: 4, title: "Tuna Sandwich", ingredients: "bread, tuna, mayo"},
@@ -13,17 +13,6 @@ var arrayMeal = [
   {mealID: 10, title: "Roast Beef Sandwich", ingredients: "bread, roast beef, mayo"}
 ]
 
-// array of meals
-for (let i = 0;
-  		 i < arrayMeal.length;
-		 i++){
-
-    // Singular Item in Cart
-    let mealItems = arrayMeal[i]
-
-    // TEMP: Log for debugging some problem
-    console.log(mealItems.mealID + " "  +  mealItems.title + " " + mealItems.ingredients + " " + mealItems.qty);
-}
 
 meals.getMeal();
 meals.getMeals();
